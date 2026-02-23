@@ -1,2 +1,33 @@
-day-02
+w=input("enter the word: ")
+num=0
+for ch in w:
+    if ch=='a':
+        num=num+1
+print("count of a= ",num)
 
+
+w=input("enter the word: ")
+lst=list(w)
+lst.reverse()
+print(lst)
+
+
+num=input("enter the numbers")
+numbers=list(map(int,num.split()))
+print(max(numbers))
+
+num=input("enter the numbers")
+num=list(map(int, num.split()))
+unique=[]
+for i in num:
+    if i not in unique:
+        unique.append(i)
+print(unique)
+
+
+word=input("enter the word")
+num=0
+for ch in word:
+    if ch in ('a','e','i','o','u'):
+          num=num+1
+print("number of vowels used:",num)

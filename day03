@@ -1,1 +1,32 @@
-day03
+age = 12
+if age < 4:
+u price = 0
+elif age < 18:
+v price = 5
+else:
+w price = 10
+
+
+num=int(input("enter the number"))
+if num%2==0:
+    print("even number")
+else:
+    print("odd number")
+
+
+
+num1=int(input("enter the first number "))
+num2=int(input("enter the second number "))
+if num1>num2:
+    print(num1,"is the greatest number")
+else:
+    print(num2,"is the greatest number")
+
+
+
+num=int(input("enter the number"))
+if num%5==0:
+    print("divisible by 5")
+else:
+    print("not divisible ")
+

@@ -6,7 +6,7 @@ v price = 5
 else:
 w price = 10
 
-
+.
 num=int(input("enter the number"))
 if num%2==0:
     print("even number")

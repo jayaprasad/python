@@ -1,1 +1,43 @@
-day-04
+aliens = []
+
+for alien_number in range(30):
+         new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
+         aliens.append(new_alien)
+
+for alien in aliens[:3]:
+    print(alien)
+print("...")
+
+print("Total number of aliens: " + str(len(aliens)))
+
+
+
+
+favorite_languages = {
+ 'jen': 'python',
+ 'sarah': 'c',
+ 'edward': 'ruby',
+ 'phil': 'python',
+ }
+print("The following languages have been mentioned:")
+for language in favorite_languages.values():
+ print(language.title())
+
+
+
+
+sers = {
+ 'aeinstein': {
+ 'first': 'albert',
+ 'last': 'einstein',
+ 'location': 'princeton',
+ },
+mcurie': {
+ 'first': 'marie',
+ 'last': 'curie',
+ 'location': 'paris',
+ },
+ }
+
+
+

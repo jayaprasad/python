@@ -1,1 +1,9 @@
 print("preparation for the internals");
+
+date=int(input("enter the date"))
+if(date>=9):
+  print("prepare for the internlas")
+  else:
+      print("go for the skills")
+
+
